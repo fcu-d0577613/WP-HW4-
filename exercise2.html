@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+
+<script>
+
+$(document).ready(function(){
+$("button1").click(function(){
+$("p:first").hide();
+});
+});
+
+$(document).ready(function(){
+$("button2").click(function(){
+$("#two").hide();
+});
+});
+
+$(document).ready(function(){
+$("button3").click(function(){
+$(".three").hide();
+});
+});
+
+</script>
+
+</head>
+<body>
+
+<h2>Web Programming</h2>
+
+<p>This is a paragraph1</p>
+<p id="two">This is a paragraph2</p>
+<p class="three">This is a paragraph3</p>
+
+<button> <button1>  Click me p1 bye</button1> </button>  <br>
+<button><button2 id="two">  Click me p2 bye  </button2></button><br>
+<button><button3>  Click me p3 bye   </button3></button>
+</body>
+
+
+</html>

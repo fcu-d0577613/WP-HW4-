@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#slow").click(function(){
+        $("p").hide(3000);
+    });
+});
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+
+$(document).ready(function(){
+    $("#kkk").click(function(){
+        $("p").fadeIn();
+        
+    });
+});
+
+</script>
+</head>
+<body>
+
+<button id="slow">逐漸消失</button>
+<button id="kkk">逐漸出現</button>
+<button id="hide">消失</button>
+<button id="show">出現</button>
+
+<p><img src="http://pic.pimg.tw/jenny3231/4975f7735e38b.gif"></p>
+
+
+</body>
+</html>
